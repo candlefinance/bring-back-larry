@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Bring Back Larry",
+  "description": "Don't let Twitter's questionable design choices get you down. Take control of your logo destiny with this extension!",
+  "version": "0.0.0.9",
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "/icons/logo.png",
+    "default_popup": "popup.html",
+    "title": "Bring Back Larry"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "./icons/logo.png"
+  },
+  "permissions": ["scripting", "activeTab", "storage"]
+}
