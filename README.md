@@ -14,7 +14,8 @@ With the click of a button, the logo was restored to its former glory, and Twitt
 2. Load the extension in Chrome by going to `chrome://extensions/` and clicking `Load unpacked extension...` and selecting the folder containing the extension files.
 3. Reload Twitter and enjoy!
 
-https://github.com/candlefinance/bring-back-larry/assets/12258850/44c1027b-9bc1-4d50-9e6b-eb1ed7e0a027
+https://github.com/candlefinance/bring-back-larry/assets/12258850/c8df13c9-ba5c-46b6-a822-4fb4daa078d2
+
 
 ## License
 
